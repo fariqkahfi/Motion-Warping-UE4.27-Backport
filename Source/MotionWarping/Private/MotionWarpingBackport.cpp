@@ -689,6 +689,13 @@ FTransform URootMotionModifier_SkewWarp::ProcessRootMotion(const FTransform& InR
 		return FinalRootMotion;
 	}
 
+	UMotionWarpingComponent* OwnerComp = GetOwnerComponent();
+	if (!OwnerComp || !OwnerComp->FindWarpTarget(WarpTargetName))
+	{
+		// Target has not been set yet or doesn't exist. Do not warp.
+		return FinalRootMotion;
+	}
+
 	if (bWarpTranslation)
 	{
 		// Extract the TOTAL root motion for this window (this is in Mesh/Skeleton local space)
