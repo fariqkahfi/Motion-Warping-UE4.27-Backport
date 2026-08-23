@@ -1,0 +1,9 @@
+Binaries/
+Intermediate/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb

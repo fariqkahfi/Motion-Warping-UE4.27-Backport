@@ -22,3 +22,8 @@ This plugin allows you to dynamically warp root motion animations to align with 
 The plugin utilizes a custom `AnimNotifyState` (`AnimNotifyState_MotionWarping`) placed on your animation montages. When the notify is triggered, the `MotionWarpingComponent` intercepts the character's root motion and mathematically bends the root motion path so that by the end of the notify window, the character perfectly reaches the specified Warp Target.
 
 Warp Targets can be updated dynamically in Blueprint or C++ via the `MotionWarpingComponent`.
+
+## Update Log
+
+* **Fix:** Missing Warp Targets no longer snap the character to the world origin (0,0,0). The plugin now gracefully ignores the warping notify if the target is missing or has not been set yet.
+* **Fix:** Resolved violent oscillation and incorrect warp directions by calculating Skew Warping projections entirely in local Mesh Space, mimicking the robust UE5 approach.
