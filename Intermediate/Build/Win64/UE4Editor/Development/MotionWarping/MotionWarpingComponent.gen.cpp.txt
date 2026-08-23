@@ -1,7 +1,0 @@
-D:\temp_build\MotionWarping14\HostProject\Plugins\MotionWarping\Intermediate\Build\Win64\UE4Editor\Development\MotionWarping\Definitions.MotionWarping.h
-D:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\temp_build\MotionWarping14\HostProject\Plugins\MotionWarping\Source\MotionWarping/Public/MotionWarpingComponent.h
-D:\temp_build\MotionWarping14\HostProject\Plugins\MotionWarping\Source\MotionWarping\Public\RootMotionModifier.h
-D:\temp_build\MotionWarping14\HostProject\Plugins\MotionWarping\Intermediate\Build\Win64\UE4Editor\Inc\MotionWarping\RootMotionModifier.generated.h
-D:\temp_build\MotionWarping14\HostProject\Plugins\MotionWarping\Intermediate\Build\Win64\UE4Editor\Inc\MotionWarping\MotionWarpingComponent.generated.h
